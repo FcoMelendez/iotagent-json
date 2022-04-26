@@ -41,5 +41,5 @@ RUN apt-get update && apt-get install -y \
 
 
 # launch ros package
-CMD ["/root/.nvm/versions/node/v14.19.1/bin/node", "iotagent-json-binding-ros2/bin/iotagent-json"]
+CMD ["/root/.nvm/versions/node/v14.19.1/bin/node", "/iotagent-json-binding-ros2/bin/iotagent-json"]
 
