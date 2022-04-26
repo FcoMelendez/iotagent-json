@@ -309,7 +309,7 @@ config.iota = {
 
 /**
  * map {name: function} of extra transformations avaliable at JEXL plugin
-*  see https://github.com/telefonicaid/iotagent-node-lib/tree/master/doc/expressionLanguage.md#available-functions
+ *  see https://github.com/telefonicaid/iotagent-node-lib/tree/master/doc/expressionLanguage.md#available-functions
  */
 
 config.jexlTransformations = {};
@@ -326,7 +326,7 @@ config.defaultKey = '1234';
 /**
  * Default transport protocol when no transport is provisioned through the Device Provisioning API.
  */
-config.defaultTransport = 'MQTT';
+config.defaultTransport = 'ROS2';
 /**
  * flag indicating whether the node server will be executed in multi-core option (true) or it will be a
  * single-thread one (false).
